@@ -1,0 +1,25 @@
+class: Car
+
+attributes:
+
+make ("string"),
+model ("string"),
+year ("string - because it is a year, not a mutable number"),
+color ("string"),
+numPassengers (integer),
+engineSize ("string"),
+galGasInTank (integer/float)
+currentMileage (integer/float),
+isRunning (boolean true || false),
+isRegistered (boolean true || false)
+
+methods:
+
+addPassenger (increases the value of numPassengers by 1),
+removePassenger (decreases the value of numPassengers by 1),
+newPaint (updates the value of color),
+fillGas (increases the value of galGasInTank),
+turnOn (updates the value so that isRunning = true ),
+driveMiles (increases the value of currentMileage, decreases the value of galGasInTank),
+expireRegistration (updates the value so that isRegistered = false ),
+updateRegistration (updates the value so that isRegistered = true )

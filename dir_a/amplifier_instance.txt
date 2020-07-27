@@ -1,0 +1,16 @@
+class: Amplifier
+
+attributes:
+isOn (boolean),
+amplifierBrand ("string"),
+lineOut (boolean),
+watts (int),
+settingKnobs ([array])
+
+
+methods:
+
+turnOn (sets the value of isOn = true)
+turnOff (sets the value of isOn = false)
+tune (pass a specified index from the settingsKnobs array as an argument,
+      and perform a function which changes the value of the specified setting)

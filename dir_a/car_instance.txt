@@ -1,0 +1,32 @@
+instance: Allison's Mazda Tribute
+
+attributes:
+
+make: "Mazda"
+model: "Tribute"
+year: "2003"
+color: "tan"
+numPassengers: 2
+engineSize: "V6"
+galGasInTank: 10
+currentMileage: 140,000
+isRunning: false
+isRegistered: true
+
+methods:
+
+addPassenger (increases the value so that numPassengers = 3 ),
+
+removePassenger (decreases the value so that numPassengers = 2 following the method above),
+
+newPaint("grey") updates the value so that color = "grey"
+
+fillGas (increases the value so that galGasInTank = 16.4),
+
+turnOn (updates the value so that isRunning = true ),
+
+driveMiles(20) increases the value so that currentMileage = 140,020 and decreases the value so that galGasInTank = 15.5 ),
+
+expireRegistration (updates the value so that isRegistered = false )
+
+updateRegistration (updates the value so that isRegistered = true )
